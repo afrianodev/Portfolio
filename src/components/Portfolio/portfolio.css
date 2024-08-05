@@ -31,3 +31,10 @@
     transition: 500ms;
 }
 
+@media (max-width: 768px ) {
+    .container-works {
+        grid-template-columns: 1fr 1fr;
+        width: 85%;
+    }
+}
+

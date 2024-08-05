@@ -13,6 +13,7 @@ body {
   font-family: "Poppins";
   animation: bg-animation 20000ms infinite alternate;
   height: auto;
+  overflow-x: hidden;
 
 }
 

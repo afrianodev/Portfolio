@@ -85,3 +85,10 @@
     scale: 105%;
     transition: 200ms;
 }
+
+@media (max-width: 768px ) {
+    .contact-container {
+        flex-direction: column;
+        gap: 5px;
+    }
+}

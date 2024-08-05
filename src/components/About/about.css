@@ -110,3 +110,44 @@
 .bottom-right span {
     font-size: 10px;
 }
+
+@media (max-width: 768px ) {
+    .about p {
+        font-size: 14px;
+    }
+    .para-about1, .para-about2 {
+        margin-top: 5px;
+        max-width: 90%;
+    }
+    .about-bottom {
+        flex-direction: column;
+        max-width: 90%;
+        margin-top: 20px;
+    }
+    .divisor-ver-line {
+        display: none;
+    }
+    .bottom-center {
+        margin-top: 20px;
+    }
+    .bottom-right {
+        margin-top: 20px;
+        align-items: start;
+    }
+    .bottom-right ul li {
+        margin-top: 10px;
+    }
+    .bottom-right ul {
+        margin-top: 5px;
+    }
+    .skills-lines {
+        flex-direction: column;
+        max-width: 95%;
+    }
+    .stack-div img {
+        width: 35px;
+    }
+    .stack-l1, .stack-l2 {
+        gap: 10px;
+    }
+}

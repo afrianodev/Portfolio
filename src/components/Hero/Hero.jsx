@@ -15,7 +15,7 @@ const Hero = () => {
                 <p>I'm a fullstack developer with one year of experience, enthusiastic about creating impactful projects. I am committed to continuous learning and innovation in every project I undertake.</p>
                 <div className="hero-buttons">
                     <a href="https://www.linkedin.com/in/andres-ria%C3%B1o-193003251/" target="_blank" rel="noopener noreferrer"><LinkedInIcon className='socialmedia-btn'/></a>
-                    <a href="https://github.com/afrianom" target="_blank" rel="noopener noreferrer"><GitHubIcon className='socialmedia-btn'/></a>
+                    <a href="https://github.com/afrianodev" target="_blank" rel="noopener noreferrer"><GitHubIcon className='socialmedia-btn'/></a>
                     {/* <object type="image/svg+xml" data={linkedinlogo} width="50" className="linked-in-btn"></object> */}
                     {/* <object src={githublogo} alt="github logo" className="github-btn" width='50'></object> */}
                     <a href="https://drive.google.com/uc?export=download&id=1FohTag86AQ6XvMrQv1sAmmOGu93LbRw8" className="my-resume">My resume</a>

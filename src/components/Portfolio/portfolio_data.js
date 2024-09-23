@@ -8,12 +8,12 @@ import shortFilms from '../../assets/treehouse-horror.jpg'
 const portfolioInfo = [
     {
         w_img : balanceBites,
-        w_name: 'BalanceBites',
+        w_name: 'Nutrition App',
         w_url: 'https://balancebites.vercel.app/'
     },
     {
         w_img : horrorPelis,
-        w_name: 'Horros movies web',
+        w_name: 'Horror movies web',
         w_url: 'https://casita-horror.vercel.app/'
     },
     {

@@ -24,7 +24,7 @@ const portfolioInfo = [
     {
         w_img : mundologia,
         w_name: 'World Map Game',
-        w_url: 'https://afrianom.github.io/mundologia/'
+        w_url: 'https://mundologia.vercel.app/'
     },
     {
         w_img: clubCampestre,

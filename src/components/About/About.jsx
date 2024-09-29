@@ -16,21 +16,21 @@ const About = () => {
     return (
         <div id="about" className="about">
             <h1>About me</h1>
-            <p className="para-about para-about1">My full name is Andres Riaño, based in Mexico. I hold a degree in Film and Television Production, with a lifelong passion for design and computers, also I have programming knowledge. For nearly two years I have fully immersed myself in this fascinating field.</p>
+            <p className="para-about para-about1">My full name is Andres Riaño, based in Mexico. I hold a degree in Film and Television Production, with a lifelong passion for design and computers, also I have programming knowledge. For nearly four years I have fully immersed myself in this fascinating field.</p>
             <p className="para-about para-about2">I am very curious and always eager to learn. I put a lot of passion into everything I do, and when I encounter an obstacle, I always find a solution.</p>
             <div className="about-bottom">
                 <div className="bottom-left">
                     <div className="work-experience">
                     <h2>Work Experience</h2>
                         <div className="work-1">
-                            <h3>Web Designer</h3>
-                            <p><a href="https://gbmcomunicaciones.com/" target="_blank" rel="noopener noreferrer">GBM comunicaciones</a> | Nov 2021 - Nov 2023</p>
-                            <p>I was responsible for designing and animating projects according to client requirements.</p>
+                            <h3>FullStack Developer</h3>
+                            <p><a href="https://neomarketcorporation.com/" target="_blank">NeoMarket</a> | Apr 2022 - Actual</p>
+                            <p>Designing and creating deliverables according to each client's requirements.</p>
                         </div>
                         <div className="work-1">
-                            <h3>Designer</h3>
-                            <p>Freelance | Sept 2022 - Actual</p>
-                            <p>Designing and creating deliverables according to each client's requirements.</p>
+                            <h3>Web Designer</h3>
+                            <p><a href="https://gbmcomunicaciones.com/" target="_blank" rel="noopener noreferrer">GBM comunicaciones</a> | Jul 2018 - Feb 2022</p>
+                            <p>I was responsible for designing and animating projects according to client requirements.</p>
                         </div>
                     </div>
                 </div>
@@ -39,15 +39,16 @@ const About = () => {
                 <div className="bottom-center">
                     <h2>Education</h2>
                     <div className="education-1">
-                        <h3>Web Devolopment Bootcamp</h3>
-                        <p>By Angela Yu | Aug 2023</p>
+                        <h3>Film and TV production</h3>
+                        <p>Bachelors degree</p>
+                        <p>By Taller 5 | Jun 2013 - Jul 2016</p>
                     </div>
                     <div className="education-1">
-                        <h3>Responsive Web Design</h3>
-                        <p>By FreecodeCamp.org | Nov 2023</p>
+                        <h3>Fullstack Bootcamp</h3>
+                        <p>By Angela Yu | Nov 2023</p>
                     </div>
                     <div className="education-1">
-                        <h3>React - The complete guide</h3>
+                        <h3>React - Complete course</h3>
                         <p>By Academind | Nov 2023</p>
                     </div>
                 </div>

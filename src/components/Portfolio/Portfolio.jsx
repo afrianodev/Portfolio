@@ -15,7 +15,7 @@ const Portfolio = () => {
             <h1>Portfolio</h1>
             <div className="container-works">
                 {portfolioInfo.map((work, index)=> {
-                    return <div className="grid-elements">
+                    return <div className="grid-elements" key={index}>
                                 <a href={work.w_url} target="_blank"><img key={index} src={work.w_img} width='100%'/></a>
                                 <p>{work.w_name}</p>
                             </div>

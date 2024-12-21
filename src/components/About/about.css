@@ -1,5 +1,6 @@
 .about {
-    background-image: url(../../assets/bg-white.jpg);
+    /* background-image: url(../../assets/bg-white.jpg); */
+    background-color: white;
     margin-top: 50px;
     background-attachment: fixed;
     background-size: 115%;

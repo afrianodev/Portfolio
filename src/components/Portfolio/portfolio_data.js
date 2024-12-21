@@ -25,11 +25,6 @@ const portfolioInfo = [
         w_url: 'https://treehouse-horror.vercel.app/'
     },
     {
-        w_img : mundologia,
-        w_name: 'World Map Game',
-        w_url: 'https://mundologia.vercel.app/'
-    },
-    {
         w_img : 'https://i.imgur.com/L9rLnbg.jpg',
         w_name: 'Astanza: Casa restauradora',
         w_url: 'https://astanza.netlify.app/'

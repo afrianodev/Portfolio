@@ -89,7 +89,16 @@
 .my-resume:hover {
     border: 1px solid #324099;
     color: #324099;
-    scale: 105%;
+    scale: 101%;
+}
+
+.icons {
+    color: white;
+    font-size: 32px;
+}
+
+.icons:hover {
+    color: #324099;
 }
 
 .socialmedia-btn:hover {

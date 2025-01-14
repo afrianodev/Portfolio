@@ -13,6 +13,7 @@ const Portfolio = () => {
     return (
         <div id="portfolio" className="portfolio">
             <h1>Portfolio</h1>
+            <p>Click in any project to see the live demo.</p>
             <div className="container-works">
                 {portfolioInfo.map((work, index)=> {
                     return <div className="grid-elements" key={index}>

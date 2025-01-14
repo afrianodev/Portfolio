@@ -1,8 +1,8 @@
 import React from "react";
 import './hero.css'
 import profile_pic from '../../assets/profile-pic.jpg'
-import LinkedInIcon from "./LinkedInIcon.jsx";
-import GitHubIcon from './GitHubIcon.jsx';
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
 
 const Hero = () => {
     return (
@@ -12,12 +12,10 @@ const Hero = () => {
                 <h1>Hello, I'm Andres, <span>fullstack developer.</span></h1>
             </div>
             <div className="hero-second">
-                <p>I am a full-stack developer with four years of experience, passionate about creating impactful projects. I am dedicated to continuous learning and committed to bringing innovation to every project I undertake.</p>
+                <p>I am a skilled and passionate full-stack developer with four years of experience delivering innovative and impactful projects.</p>
                 <div className="hero-buttons">
-                    <a href="https://www.linkedin.com/in/andres-ria%C3%B1o-193003251/" target="_blank" rel="noopener noreferrer"><LinkedInIcon className='socialmedia-btn'/></a>
-                    <a href="https://github.com/afrianodev" target="_blank" rel="noopener noreferrer"><GitHubIcon className='socialmedia-btn'/></a>
-                    {/* <object type="image/svg+xml" data={linkedinlogo} width="50" className="linked-in-btn"></object> */}
-                    {/* <object src={githublogo} alt="github logo" className="github-btn" width='50'></object> */}
+                    <a href="https://www.linkedin.com/in/andres-ria%C3%B1o-193003251/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="icons" /></a>
+                    <a href="https://github.com/afrianodev" target="_blank" rel="noopener noreferrer"><FaGithub className="icons" /></a>
                     <a href="https://drive.google.com/uc?export=download&id=1guidn8v0WF2dVIJ4mn1LobjFQD4Eb2TD" className="my-resume">My resume</a>
                 </div>
             </div>

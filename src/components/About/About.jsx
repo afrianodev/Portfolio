@@ -14,8 +14,8 @@ const About = () => {
     return (
         <div id="about" className="about">
             <h1>About me</h1>
-            <p className="para-about para-about1">My full name is Andres Riaño, based in Mexico. I hold a degree in Film and Television Production, with a lifelong passion for design and computers, also I have programming knowledge. For nearly four years I have fully immersed myself in this fascinating field.</p>
-            <p className="para-about para-about2">I am very curious and always eager to learn. I put a lot of passion into everything I do, and when I encounter an obstacle, I always find a solution.</p>
+            <p className="para-about para-about1">A dynamic professional based in Mexico with a degree in Film and Television Production. With a lifelong passion for design and technology, I bring four years of hands-on experience in programming, blending creative vision with technical expertise.</p>
+            <p className="para-about para-about2">Specialized in both frontend design and backend development, with a strong command of database management and artificial intelligence integration. My insatiable curiosity and commitment to learning drive my ability to tackle complex challenges, delivering innovative and effective solutions. Passionate, resourceful, and results-oriented, I'm always ready to transform ideas into reality.</p>
             <div className="skills">
                 <h2>Stack</h2>
                 <div className="skills-lines">

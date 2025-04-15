@@ -9,19 +9,19 @@ const portfolioInfo = [
         w_url: 'https://balancebites.vercel.app/'
     },
     {
-        w_img : 'https://i.imgur.com/rDll9Dq.jpg',
-        w_name: 'Weather Radar',
-        w_url: 'https://weatheradar.vercel.app/'
-    },
-    {
         w_img : horrorPelis,
         w_name: 'Casita del Horror',
         w_url: 'https://casita-horror.vercel.app/'
     },
     {
-        w_img : shortFilms,
-        w_name: 'Shortfilms Web',
-        w_url: 'https://treehouse-horror.vercel.app/'
+        w_img : 'https://i.imgur.com/m8eRaRu.jpg',
+        w_name: 'Short bites',
+        w_url: 'https://short-bites.vercel.app/'
+    },
+    {
+        w_img : 'https://i.imgur.com/rDll9Dq.jpg',
+        w_name: 'Weather Radar',
+        w_url: 'https://weatheradar.vercel.app/'
     },
     {
         w_img : 'https://i.imgur.com/L9rLnbg.jpg',

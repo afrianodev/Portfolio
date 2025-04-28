@@ -39,7 +39,7 @@ const Contact = () => {
                 <div className="contact-left">
                     <h1>Contact</h1>
                     <h3>Let's talk</h3>
-                    <div className="contact-left-items"><img src={iconEmail} width='40' alt="email icon" /><p>andresfeliperianom@gmail.com</p></div>
+                    <div className="contact-left-items"><img src={iconEmail} width='40' alt="email icon" /><p>andres@afriano.com</p></div>
                     <div className="contact-left-items"><img src={iconWhatsapp} width='40' alt="phone icon" /><p>+52 55-7640-4233</p></div>
                     <div className="contact-left-items"><img src={iconLocation} width='40' alt="location icon" /><p>Mexico city, Mexico</p></div>
                 </div>

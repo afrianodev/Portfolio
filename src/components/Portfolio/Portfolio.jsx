@@ -1,12 +1,5 @@
 import React from "react";
 import './portfolio.css'
-// import calculator from "../../assets/work-calculator.jpg"
-// import mokepon from "../../assets/work-mokepon.jpg"
-// import mundologia from "../../assets/work-mundologia.jpg"
-// import clubCampestre from "../../assets/work-club-campestre.jpg"
-// import miniWebsite from '../../assets/work-mini-website.jpg';
-// import percentages from '../../assets/work-percentages.jpg';
-// import todoList from '../../assets/work-todo-list.jpg';
 import portfolioInfo from "./portfolio_data";
 
 const Portfolio = () => {
@@ -14,20 +7,19 @@ const Portfolio = () => {
         <div id="portfolio" className="portfolio">
             <h1>Portfolio</h1>
             <p>Click in any project to see the live demo.</p>
-            <div className="container-works">
+            <div className="grid grid-cols-1 sm:grid-cols-3 p-8 gap-2">
                 {portfolioInfo.map((work, index)=> {
-                    return <div className="grid-elements" key={index}>
-                                <a href={work.w_url} target="_blank"><img key={index} src={work.w_img} width='100%'/></a>
-                                <p>{work.w_name}</p>
+                    return <div className="flex items-center p-3 border-[0.25px] border-zinc-600 rounded-lg select-none" key={index}>
+                                <a href={work.w_url} target="_blank" className="w-1/2"><img src={work.w_img} className="rounded-lg transition-transform duration-300 hover:scale-[105%]"/></a>
+                                <div className="w-1/2">
+                                    <p className="text-center text-lg text-[#324099]">{work.w_name}</p>
+                                    <p className="text-center p-2 text-sm">{work.description}</p>
+                                    <div>
+
+                                    </div>
+                                </div>
                             </div>
                 })}
-                {/* <div className="grid-elements item-1"><img src={mundologia} alt="" width='250'/></div>
-                <div className="grid-elements item-2"><img src={mokepon} alt="" width='250'/></div>
-                <div className="grid-elements item-3"><img src={calculator} alt="" width='250'/></div>
-                <div className="grid-elements item-4"><img src={clubCampestre} alt="" width='250'/></div>
-                <div className="grid-elements item-4"><img src={miniWebsite} alt="" width='250'/></div>
-                <div className="grid-elements item-4"><img src={percentages} alt="" width='250'/></div>
-                <div className="grid-elements item-4"><img src={todoList} alt="" width='250'/></div> */}
             </div>
         </div>
     )

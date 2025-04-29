@@ -13,7 +13,7 @@ import adobeLogo from '../../assets/adobe-logo.png';
 const About = () => {
     return (
         <div id="about" className="about">
-            <h1>About me</h1>
+            <h1 className="text-4xl font-bold">About me</h1>
             <p className="para-about para-about1">A dynamic professional based in Mexico with a degree in Film and Television Production. With a lifelong passion for design and technology, I bring four years of hands-on experience in programming, blending creative vision with technical expertise.</p>
             <p className="para-about para-about2">Specialized in both frontend design and backend development, with a strong command of database management and artificial intelligence integration. My insatiable curiosity and commitment to learning drive my ability to tackle complex challenges, delivering innovative and effective solutions. Passionate, resourceful, and results-oriented, I'm always ready to transform ideas into reality.</p>
             <div className="skills">

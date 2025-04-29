@@ -26,12 +26,6 @@ const portfolioInfo = [
         w_name: 'Weather Radar',
         w_url: 'https://weatheradar.vercel.app/',
         description: 'real-time weather web app that provides users with current conditions.'
-    },
-    {
-        w_img : 'https://i.imgur.com/L9rLnbg.jpg',
-        w_name: 'Astanza: Casa restauradora',
-        w_url: 'https://astanza.netlify.app/',
-        description: 'A static website for an art restoration studio.'
     }
 ];
 

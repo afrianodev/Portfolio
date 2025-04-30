@@ -12,7 +12,7 @@ const Portfolio = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 p-2 sm:p-8 gap-6">
                 {portfolioInfo.map((work, index)=> {
                     return <div className="flex items-center px-1 py-3 sm:p-3 border-zinc-600 rounded-lg select-none shadow-md shadow-neutral-700" key={index}>
-                                <a href={work.w_url} target="_blank" className="flex flex-1"><img src={work.w_img} className="rounded-lg transition-transform duration-300 hover:scale-[105%]"/></a>
+                                <a href={work.w_url} target="_blank" className="flex flex-1"><img src={work.w_img} className="rounded-lg transition-transform duration-300 hover:scale-[105%]" alt={work.description}/></a>
                                 <div className="w-1/2 sm:w-1/3 flex flex-col gap-1 sm:gap-4">
                                     <p className="text-center text-lg text-[#007EA7] font-medium title-works">{work.w_name}</p>
                                     <p className="text-center p-2 text-xs sm:text-sm">{work.description}</p>

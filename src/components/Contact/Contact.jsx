@@ -37,7 +37,7 @@ const Contact = () => {
             <div className="contact-container">
                 <div className="contact-left">
                     <h1 className="text-4xl font-bold">Contact</h1>
-                    <h3>Let's talk</h3>
+                    <h2>Let's talk</h2>
                     <div className="contact-left-items"><MdEmail className="text-2xl" /><p>andres@afriano.com</p></div>
                     <div className="contact-left-items"><IoLogoWhatsapp className="text-2xl" /><p>+52 55-7640-4233</p></div>
                     <div className="contact-left-items"><FaLocationDot className="text-2xl" /><p>Mexico city, Mexico</p></div>

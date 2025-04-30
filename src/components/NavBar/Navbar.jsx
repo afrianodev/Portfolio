@@ -7,10 +7,10 @@ const Navbar = () => {
             <img src='/logosolo.webp' alt="afriano logo" className="logo-afriano" />
             <CiGrid41 className="inline sm:hidden text-3xl" />
             <ul className="nav-menu">
-                <a><li>Home</li></a>
-                <a href="#portfolio"><li>Portfolio</li></a>
-                <a href="#about"><li>About Me</li></a>
-                <a href="#contact"><li>Contact</li></a>
+                <li><a href='#'>Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     )

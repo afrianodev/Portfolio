@@ -113,9 +113,7 @@
 }
 
 @media (max-width: 768px ) {
-    .about p {
-        font-size: 14px;
-    }
+
     .para-about1, .para-about2 {
         margin-top: 5px;
         max-width: 90%;

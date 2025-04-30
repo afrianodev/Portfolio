@@ -1,8 +1,8 @@
 import React from "react";
 import './contact.css';
-import iconEmail from '../../assets/icon-email.svg';
-import iconLocation from '../../assets/icon-location-pin.svg';
-import iconWhatsapp from '../../assets/icon-whatsapp.svg'
+import { MdEmail } from "react-icons/md";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { FaLocationDot } from "react-icons/fa6";
 
 const Contact = () => {
 
@@ -34,29 +34,28 @@ const Contact = () => {
 
     return (
         <div id="contact" className="contact">
-            <hr></hr>
             <div className="contact-container">
                 <div className="contact-left">
-                    <h1>Contact</h1>
+                    <h1 className="text-4xl font-bold">Contact</h1>
                     <h3>Let's talk</h3>
-                    <div className="contact-left-items"><img src={iconEmail} width='40' alt="email icon" /><p>andres@afriano.com</p></div>
-                    <div className="contact-left-items"><img src={iconWhatsapp} width='40' alt="phone icon" /><p>+52 55-7640-4233</p></div>
-                    <div className="contact-left-items"><img src={iconLocation} width='40' alt="location icon" /><p>Mexico city, Mexico</p></div>
+                    <div className="contact-left-items"><MdEmail className="text-2xl" /><p>andres@afriano.com</p></div>
+                    <div className="contact-left-items"><IoLogoWhatsapp className="text-2xl" /><p>+52 55-7640-4233</p></div>
+                    <div className="contact-left-items"><FaLocationDot className="text-2xl" /><p>Mexico city, Mexico</p></div>
                 </div>
                 <form onSubmit={onSubmit} className="contact-right">
                     <div className="contact-form">
                         <label htmlFor="">Name: </label>
-                        <input type="text" name="name" id="input-name" placeholder="Enter your name here" required className="bg-neutral-600"/>
+                        <input type="text" name="name" id="input-name" placeholder="Enter your name here" required className="bg-neutral-600 rounded-lg"/>
                     </div>
                     <div className="contact-form">
                         <label htmlFor="">Email: </label>
                         <input type="email" name="email" id="" placeholder="Enter your email here" required
-                        className="bg-neutral-600"/>
+                        className="bg-neutral-600 rounded-lg"/>
                     </div>
                     <div className="contact-form">
                         <label htmlFor="">Message: </label>
                         <textarea name="message" id="" rows='6' placeholder="Enter your message here" required
-                        className="bg-neutral-600"></textarea>
+                        className="bg-neutral-600 rounded-lg"></textarea>
                     </div>
                     <button type="submit" className="contact-submit">Send Message</button>
                 </form>

@@ -18,6 +18,12 @@ const About = () => {
                     </div>
                     <div className="flex flex-col items-center w-[auto] sm:w-[90px]">
                         <div className="w-[50px] h-[50px] flex justify-center items-center">
+                            <img src='/nextjs-logo.webp' className="w-[30px] sm:w-[50px]" alt="react logo" />
+                        </div>
+                        <p className="text-xs sm:text-base text-center">NextJS</p>
+                    </div>
+                    <div className="flex flex-col items-center w-[auto] sm:w-[90px]">
+                        <div className="w-[50px] h-[50px] flex justify-center items-center">
                             <img src='/js-logo.webp' className="w-[30px] sm:w-[50px]" alt="javascript logo" />
                         </div>
                         <p className="text-xs sm:text-base text-center">JavaScript</p>

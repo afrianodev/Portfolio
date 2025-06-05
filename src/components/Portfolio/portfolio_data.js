@@ -2,7 +2,7 @@
 
 const portfolioInfo = [
     {
-        w_img : '/balance-bites.webp',
+        w_img : '/balancebites.webp',
         w_name: 'Balance Bites',
         w_url: 'https://balancebites.vercel.app/',
         description: 'A smart nutrition app that analyzes any food and shows detailed macros instantly. Calculates your personalized goals and suggests healthy recipes made by me.',
@@ -18,7 +18,7 @@ const portfolioInfo = [
         github: 'https://github.com/afrianodev/casita-del-horror'
     },
     {
-        w_img : 'treehouse-horror.webp',
+        w_img : 'shortbites.webp',
         w_name: 'Short bites',
         w_url: 'https://short-bites.vercel.app/',
         description: 'A curated platform to watch and discover short films with full metadata. Each film is streamable, offering a complete viewing experience.',
@@ -28,10 +28,10 @@ const portfolioInfo = [
     {
         w_img : 'weatherRadar.webp',
         w_name: 'Claimate',
-        w_url: 'https://weatheradar.vercel.app/',
+        w_url: 'https://claimate.vercel.app/',
         description: 'An AI-powered weather assistant that tells you what to wear and pack. Offers forecasts, travel mode, and alerts tied to your events and location.',
         techs: 'React, Node.js, Express, MongoDB, REST API, AI-powered recommendations',
-        github: 'https://github.com/afrianodev/weatherRadar'
+        github: 'https://github.com/afrianodev/claimate'
     }
 ];
 
